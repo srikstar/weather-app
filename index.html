@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/67c2e4a2a3.js" crossorigin="anonymous"></script>
+    <title>Weather Buddy | Srikanth Reddy</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <section class="main-container row">
+        
+        <nav class="navbar-main row">
+            <div class="navbar row-sb">
+                <div class="logo">
+                    <h4>Srikanth</h4>
+                </div>
+                <div class="search-container">
+                    <form action="">
+                        <input class="value" type="text" placeholder="Search">
+                        <button type="submit"><i class="fa-solid fa-2xl fa-magnifying-glass" style="color: #000000;"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="weather-container-main">
+            <div class="temp-container row">
+                <div class="loc">
+                    <h4 class="location"></h4>
+                </div>
+                <div class="temp column">
+                    <h1 class="temp-data">20 <sup>o</sup></h1>
+                    <h2 class="weather-status">Cloudy</h2>
+                </div>
+                <div class="wind-prec">
+                    <div class="icon-container row">
+                        <div class="logo"><i class="fa-solid fa-2xl fa-wind fa-rotate-by" style="color: #696969; --fa-rotate-angle: 696969deg;"></i></div>
+                        <div class="wind-value"><h3 class="wv">0 mph</h3></div>
+                    </div>
+                    <div class="icon-container row">
+                        <div class="logo"><i class="fa-solid fa-2xl fa-droplet" style="color: #696969;"></i></div>
+                        <div class="prec-value"><h3 class="pv">0 %</h3></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="other-data-values row">
+                <div class="data-container row-sb">
+                    <div class="other-container column">
+                        <i class="fa-regular fa-2xl fa-eye-slash" style="color: #696969;"></i>
+                        <br>
+                        <span class="vis-data datas">0</span>
+                    </div>
+                    <div class="other-container column">
+                        <i class="fa-regular fa-sun fa-2xl" style="color: #696969;"></i>
+                        <br>
+                        <span class="uv-data datas">0</span>
+                    </div>
+                    <div class="other-container column">
+                        <i class="fa-solid fa-2xl fa-exclamation" style="color: #696969;"></i>
+                        <br>
+                        <span class="pres-data datas">0mb</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+    
+</body>
+</html>
