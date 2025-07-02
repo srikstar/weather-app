@@ -15,7 +15,7 @@ const pressData = document.querySelector('.pres-data')
 
 async function fetchData(location){
     try {
-        const url = `http://api.weatherapi.com/v1/current.json?key=7152bbc5aac7467a885165613250503&q=${location}&aqi=yes`
+        const url = `https://api.weatherapi.com/v1/current.json?key=7152bbc5aac7467a885165613250503&q=${location}&aqi=yes`
         const response = await fetch(url)
         const data = await response.json()
         
