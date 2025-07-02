@@ -28,8 +28,6 @@ async function fetchData(location){
         let datauv = data.current.dewpoint_c
         let datapress = data.current.pressure_mb
 
-        console.log(data)
-
         locationValue.innerText = dataLoc
         tempData.innerText = datatemp
         weatherStatus.innerText = dataStatus
